@@ -73,6 +73,12 @@ ro.zygote.preload.enable=0
 # temporary enables NAV bar (soft keys)
 qemu.hw.mainkeys=0
 
+# Media
+vendor.vidc.dec.downscalar_height=1080
+vendor.vidc.dec.downscalar_width=2340
+vendor.vidc.enc.disable_bframes=1
+sys.display-size=3840x2160
+
 ro.kernel.zio=38,108,105,16
 #ro.kernel.qemu=1
 #ro.kernel.qemu.gles=0
